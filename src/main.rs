@@ -5,9 +5,9 @@ fn main() {
     let secret_number:u32 = rand::thread_rng().gen_range(1..101);
     println!("Guessing Game");
    
-    let mut guess = String::new();
 
     loop{
+        let mut guess = String::new();
 
         println!("Ether a number");
         io::stdin()
